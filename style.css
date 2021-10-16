@@ -38,21 +38,42 @@ nav ul li{
     font-weight: bolder;
     font-size: 1.3rem;
 }
+.container{
+    min-height: 70vh;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    background-image: url('./public/background.png');    
+
+
+}
 
 .bottom{
     position:sticky;
-    height: 130px;
-    background-color: black;
+    height: 20vh;
+    background-color: rgb(226, 132, 132);
     color: white;
     bottom: 0;
     display: flex;
-    justify-content: centerx;
+    justify-content: center;
     align-items: center;  
-    flex-direction: column;   
+    flex-direction: column; 
+    max-height: 100px ;
     
 }
-
-
-#myProgressBar{
+#progressBar{
     width: 80vw;
+    
+}
+.icons{
+    margin-top: 12px;
+
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
